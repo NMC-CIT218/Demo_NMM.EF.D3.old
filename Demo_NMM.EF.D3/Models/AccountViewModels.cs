@@ -65,7 +65,7 @@ namespace Demo_NMM.EF.D2.Models
     public class RegisterViewModel
     {
         [Required]
-        [Display(Name = "I am at least 18 years or older.")]
+        [Display(Name = "I am at least 18 years old.")]
         public bool LegalAge { get; set; }
 
         [Required]

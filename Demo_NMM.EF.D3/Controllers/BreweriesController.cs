@@ -20,6 +20,12 @@ namespace Demo_NMM.EF.D2.Controllers
             return View(db.Breweries.ToList());
         }
 
+        // LList all breweries
+        public ActionResult ListBreweries()
+        {
+            return View(db.Breweries.ToList());
+        }
+
         // GET: Breweries/Details/5
         public ActionResult Details(int? id)
         {
