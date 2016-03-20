@@ -184,10 +184,10 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\BreweryReview.cs" />
-    <None Include="Models\NMMUser.cs.old" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Content Include="Views\Breweries\ListBreweries.cshtml" />
+    <Content Include="Views\Breweries\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-org.css" />
@@ -200,7 +200,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Models\ClassDiagramInitial.cd" />
-    <None Include="Properties\PublishProfiles\demo-nmm-ef-02.pubxml" />
+    <None Include="Properties\PublishProfiles\demo-nmm-ef-D03.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

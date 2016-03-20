@@ -20,10 +20,20 @@ namespace Demo_NMM.EF.D2.Controllers
             return View(db.Breweries.ToList());
         }
 
-        // LList all breweries
+        // List all breweries
         public ActionResult ListBreweries()
         {
             return View(db.Breweries.ToList());
+        }
+
+        // Search all breweries
+        public ActionResult Search(string q)
+        {
+            var breweries = db.Breweries
+                .Where(a => a.Name.Contains(q))
+                .ToList();
+
+            return View(breweries);
         }
 
         // GET: Breweries/Details/5
